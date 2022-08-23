@@ -18,7 +18,7 @@ echo "Installing Homebrew..."
 if test ! $(which brew)
 then
 	## Don't prompt for confirmation when installing homebrew
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 \curl -s "https://get.sdkman.io" | bash
