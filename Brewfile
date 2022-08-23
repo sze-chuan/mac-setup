@@ -1,4 +1,4 @@
-tap "caskroom/cask"
+tap "homebrew/cask"
 
 # well... it's Git
 brew "git"
