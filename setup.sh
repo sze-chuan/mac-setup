@@ -21,8 +21,6 @@ then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-\curl -s "https://get.sdkman.io" | bash
-
 brew upgrade
 brew update
 brew bundle

@@ -11,10 +11,3 @@ This repository contains a set of scripts and dotfiles for setting up a new Macb
 > Running the script repeatedly will install missing packages and upgrade the existing ones.
 
 3. Run `./setup_ssh.sh` (if you need a new SSH key)
-
-### Manual setup
-
-I use Chrome for surfing and developing for the web. I install the following plugins manually:
-
-- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
-- [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk?hl=en)
