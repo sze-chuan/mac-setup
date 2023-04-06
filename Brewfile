@@ -16,6 +16,8 @@ cask "rider"
 cask "jetbrains-gateway"
 cask "visual-studio-code"
 cask "postman"
+cask "openlens"
+cask "rectangle"
 
 # optional
 cask "whatsapp"
