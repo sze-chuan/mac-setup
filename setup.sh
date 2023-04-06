@@ -41,10 +41,10 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Automatically hide and show the Dock
-# defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool true
 
 # Only Show Open Applications In The Dock
-# defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock static-only -bool true
 
 # Display full POSIX path as Finder window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
